@@ -1,0 +1,9 @@
+.new-note * {
+    display: block;
+}
+.new-date{
+    font-style: italic;
+}
+body{
+    background-color: blue;
+}

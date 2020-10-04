@@ -1,0 +1,16 @@
+#trophies{
+    position:fixed;
+    color:white;
+    font-size:75;
+    top:10%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+#lives{
+    position:fixed;
+    color:white;
+    font-size:75;
+    top:10%;
+    left:10%;
+    transform:translate(-50%,-50%);
+}

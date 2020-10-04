@@ -1,0 +1,15 @@
+#picker{
+    left:0px;
+    top:0px;
+}
+#slide{
+    margin-left:200px;
+    margin-top:-200px;
+}
+body{
+    background-color: gray;
+}
+#controls{
+    margin-top:20px;
+    margin-bottom:20px;
+}

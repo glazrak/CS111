@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Platformer Game</title>
+        <link href="button.css" rel="stylesheet">
+    </head>
+    <body>
+        <p id="text"class="text1">left/right,up arrows for P1---down arrow to shoot</p>
+        <p id="texts"class="text2">'a'/'d','w' arrows for P2---'s' arrow to shoot</p>
+        <button id="start" class="show">Start</button>
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+        <script
+			  src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"
+			  integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw="
+			  crossorigin="anonymous"></script>
+		<script>
+            $("#start").click(function(){
+                 $("#start").switchClass("showing", "hide");
+                 $("#text").switchClass("text1", "hide");
+                 $("#texts").switchClass("text2", "hide");
+            });
+        </script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.4.23/p5.min.js"></script>
+        <script type="text/javascript" src="https://cdn.rawgit.com/molleindustria/p5.play/master/lib/p5.play.js"></script>
+        <script type="text/javascript"src="https://cdn.rawgit.com/antiboredom/p5.gif.js/master/p5.gif.min.js"></script>
+        <script type="text/javascript" src="game1.js"></script>
+    </body>
+</html>

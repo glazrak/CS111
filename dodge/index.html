@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dodge</title>
+    </head>
+    <body>
+        <button id="start" class="showing">Start</button>
+        <div id="score">
+            <p id="moving">points: 0</p>
+        </div>
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+        <script
+			  src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"
+			  integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw="
+			  crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.0/p5.min.js"></script>
+        <script src="https://cdn.rawgit.com/molleindustria/p5.play/master/lib/p5.play.js"></script>
+        <script src="game.js"></script>
+        <script>
+            $("#start").click(function(){
+                 $("#start").switchClass("showing", "hide");
+            });
+        </script>
+    </body>
+</html>
